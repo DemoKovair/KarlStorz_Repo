@@ -1,20 +1,20 @@
 //This is the Code for Karl_Storz demo purpose
-class Krishnamurthy
+class ConcurrentUserLogin
 {
-    // function to calculate the factorial
+    // function to calculate the AppUsers
     // of any number
-    static int factorial(int n)
+    static int AppUsers(int n)
     {
-        int fact = 1;
+        int UserCount = 1;
         while (n != 0)
         {
-            fact = fact*n;
+            UserCount = UserCount*n;
             n--;
         }
-        return fact;
+        return UserCount;
     }
  
-    static boolean isKrishnamurthy(int n)
+    static boolean isConcurrentUserLogin(int n)
     {
         int sum = 0;
  
@@ -22,7 +22,7 @@ class Krishnamurthy
         while (temp != 0)
         {
             
-            sum += factorial(temp%10);
+            sum += AppUsers(temp%10);
  
            
             temp = temp/10;
@@ -36,7 +36,7 @@ class Krishnamurthy
     public static void main(String[] args)
     {
         int n = 145;
-        if (isKrishnamurthy(n))
+        if (isConcurrentUserLogin(n))
             System.out.println("YES");
         else
             System.out.println("NO");

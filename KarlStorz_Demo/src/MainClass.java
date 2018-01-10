@@ -1,4 +1,4 @@
-//This is the Code for Karl_Storz demo purpose
+//This is the Code for Karl_Storz demo purp
 class Krishnamurthy
 {
     // function to calculate the factorial

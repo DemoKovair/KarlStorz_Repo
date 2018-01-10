@@ -1,4 +1,4 @@
-//This is the Code for Karl_Storz demo
+//This is the Code for Karl_Storz demo purpose
 class Krishnamurthy
 {
     // function to calculate the factorial
